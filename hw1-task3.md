@@ -14,14 +14,14 @@ Explain whether each scenario is a **classification or regression** problem, and
 
 **(a)**  We collect data on 200 protected marine reserves worldwide. For each reserve we record species richness, reserve size, years since establishment, enforcement budget, and proximity to human settlements. We are interested in understanding which factors affect species richness.
 
-> n = 200, p = 5
+> n = 200, p = 4
 This is a regression problem and we are most interested in inference. 
 
 ---
 
 **(b)** A conservation agency wants to know whether a proposed habitat corridor will successfully support wildlife movement or fail to do so. They collect data on 30 previously established corridors. For each corridor they have recorded whether wildlife movement was successful or unsuccessful, corridor width, length, surrounding land use type, and eight other variables.
 
-> n = 30, p = 12
+> n = 30, p = 11
 This is a classification problem and we are most interested in prediction.
 
 ---
@@ -45,4 +45,4 @@ What are the advantages and disadvantages of a very flexible (versus a a less fl
 
 Describe the differences between a **parametric** and a **non-parametric** statistical learning approach. What are the **advantages** of a parametric approach to regression or classification (as opposed to a non-parametric approach)? What are its **disadvantages**?
 
-> the parametric approach estimates in two steps. It starts with a functional form for F, and then fits to the model with training data. Since you are constructing the approach around a functional form, you can more easily inferer relationships between the different variables. However, this simpler approach may mean that the predicted F is actually quite different from the "true" F, and thus you are left with poor model fit. 
+> the parametric approach estimates in two steps. It starts with a functional form for F, and then fits to the model with training data. Since you are constructing the approach around a functional form, you can more easily infer and interpret relationships between the different variables. However, this simpler approach may mean that the predicted F is actually quite different from the "true" F, and thus you are left with poor model fit. On the other hand, the non-parametric does not assume a functional form for F, and instead lets the data determine its form. 
